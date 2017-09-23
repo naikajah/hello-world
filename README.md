@@ -28,6 +28,7 @@ Do not worry if you know nothing about these pre-requisites. You can follow
 
 In order to make it simple we will follow a particular directory structure. You can follow your own structure but this is what I have followed as it helps me in remembering the usage of each and every file in the project.
 
+```
 hello-world/
 ├── puppet
 │   ├── hiera
@@ -56,6 +57,7 @@ hello-world/
 │           └── tests
 └── spec
     └── loadbalancer
+```
 
 ### Operating System
 Ubuntu: I have never played with debian based systems. So this is my first interaction with it. I did some research in forums and blogs about which operating system is better and popular. I always thought it to be RHEL, but to my surprise it is not and Ubuntu is by far the most used linux based operating systems and constitutes on an average about 40-50% and RHEL/CentOS being only 10-20%. Here are some facts:
