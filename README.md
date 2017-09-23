@@ -11,7 +11,7 @@ These instructions will help those who are new to the devops world and wants to 
 
 If you have followed each and every instruction in this README in the same order you will get a setup that will look similar to below diagram:
 
-[Project Architecture](https://github.com/naikajah/hello-world/blob/master/Devops.png)
+![Alt](Devops.png)
 
 ## Prerequisites
 
