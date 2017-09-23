@@ -1,0 +1,7 @@
+---
+classes:
+  - loadbalancer
+
+loadbalancer::backend:
+  - webapp-1.test.com
+  - webapp-2.test.com

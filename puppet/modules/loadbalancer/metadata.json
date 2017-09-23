@@ -1,0 +1,13 @@
+{
+  "name": "Loadbalancer",
+  "version": "0.1.0",
+  "author": "Piyush Kumar",
+  "summary": "Loadbalancer configuration",
+  "license": "Apache 2.0",
+  "source": "",
+  "project_page": "",
+  "issues_url": null,
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}

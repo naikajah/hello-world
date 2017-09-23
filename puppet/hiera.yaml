@@ -1,0 +1,9 @@
+---
+:backends:
+  - yaml
+:hierarchy:
+  - 'nodetype/%{::nodetype}'
+  - global
+
+:yaml:
+  :datadir: /vagrant/puppet/hiera
