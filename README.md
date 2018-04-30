@@ -124,7 +124,12 @@ Naxsi is one of the popular WAF (Web Application Firewall) for Nginx. Another on
 ### Execution
 The below steps will lead you to the working vagrant environment:
 
-1. Clone the project from github into a new directory.
+1. Clone the project from github into a new directory and make sure all the submodules are also extracted
+
+```
+>> git clone https://github.com/naikajah/hello-world.git
+>> git submodules update --init
+```
 
 2. For the sake of simplicity nodes.yaml file is provided that comprise of all the nodes that will get created. You can either create all the machines together by
 
