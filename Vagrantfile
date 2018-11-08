@@ -7,8 +7,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.ssh.insert_key = false
 
   # Box to be used for vagrant machines
-  config.vm.box = "puppetlabs/ubuntu-14.04-64-nocm"
-  config.vm.box_url = "https://vagrantcloud.com/puppetlabs/boxes/ubuntu-14.04-64-nocm"
+  config.vm.box = "puppetlabs/ubuntu-16.04-64-nocm"
+  config.vm.box_url = "https://app.vagrantup.com/puppetlabs/boxes/ubuntu-16.04-64-nocm"
 
   # looping through the nodes for nodes.yaml
   nodes.each do |server,cfgOptions|

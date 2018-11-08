@@ -14,3 +14,8 @@ loadbalancer:
   hostname: loadbalancer.test.com
   ip: 192.168.1.4
   nodetype: 'loadbalancer'
+
+jenkins:
+  hostname: jenkins.test.com
+  ip: 192.168.1.10
+  nodetype: 'jenkins'

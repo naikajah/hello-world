@@ -1,0 +1,6 @@
+puppet/modules/apt
+puppet/modules/archive
+puppet/modules/java
+puppet/modules/jenkins
+puppet/modules/zypprepo
+puppet/modules/stdlib

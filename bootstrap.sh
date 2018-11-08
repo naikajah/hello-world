@@ -1,4 +1,5 @@
 sudo apt-get update
-wget http://apt.puppetlabs.com/puppetlabs-release-trusty.deb
-sudo dpkg -i puppetlabs-release-trusty.deb
-sudo apt-get install puppet -y
+wget https://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb
+sudo dpkg -i puppetlabs-release-pc1-xenial.deb
+sudo apt-get update
+sudo apt-get install puppetserver -y

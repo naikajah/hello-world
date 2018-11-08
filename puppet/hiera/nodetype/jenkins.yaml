@@ -1,0 +1,88 @@
+---
+classes:
+  - jenkins
+
+jenkins::configure_firewall: false
+
+profile::jenkins::plugins:
+  ansicolor: {}
+  ant:
+    config_filename: hudson.tasks.Ant.xml
+    config_content: |
+      <?xml version='1.0' encoding='UTF-8'?>
+      <hudson.tasks.Ant_-DescriptorImpl plugin="ant@1.2">
+        <installations>
+          <hudson.tasks.Ant_-AntInstallation>
+            <name>1.9.6</name>
+            <home></home>
+            <properties>
+              <hudson.tools.InstallSourceProperty>
+                <installers>
+                  <hudson.tasks.Ant_-AntInstaller>
+                    <id>1.9.6</id>
+                  </hudson.tasks.Ant_-AntInstaller>
+                </installers>
+              </hudson.tools.InstallSourceProperty>
+            </properties>
+          </hudson.tasks.Ant_-AntInstallation>
+        </installations>
+      </hudson.tasks.Ant_-DescriptorImpl>
+  antisamy-markup-formatter:
+    version: 1.3
+  build-token-root: {}
+  copyartifact: {}
+  credentials:
+    version: 1.22
+  cvs:
+    enabled: false
+    version: 2.12
+  delivery-pipeline-plugin: {}
+  pipeline: {}
+  envinject: {}
+  external-monitor-job:
+    enabled: false
+  git: {}
+  git-client: {}
+  git-parameter: {}
+  greenballs: {}
+  javadoc:
+    version: 1.3
+  junit:
+    version: 1.9
+  ldap:
+    enabled: false
+  mailer:
+    version: 1.15
+  mask-passwords: {}
+  matrix-auth:
+    version: 1.2
+  matrix-project:
+    version: 1.6
+  maven-plugin:
+    version: 2.12
+  multiple-scms: {}
+  pam-auth:
+    version: 1.2
+  parameterized-trigger: {}
+  performance: {}
+  publish-over-ssh: {}
+  rbenv: {}
+  scm-api: {}
+  script-security: {}
+  ssh-credentials:
+    version: 1.11
+  subversion:
+    enabled: false
+    version: 2.5.3
+  swarm: {}
+  translation:
+    enabled: false
+    version: 1.12
+  windows-slaves:
+    enabled: false
+    version: 1.1
+  workflow-step-api: {}
+  ws-cleanup: {}
+  xunit: {}
+  postbuildscript:
+    version: 0.17
