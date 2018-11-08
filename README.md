@@ -128,7 +128,7 @@ The below steps will lead you to the working vagrant environment:
 
 ```
 >> git clone https://github.com/naikajah/hello-world.git
->> git submodules update --init
+>> git submodule update --init
 ```
 
 2. For the sake of simplicity nodes.yaml file is provided that comprise of all the nodes that will get created. You can either create all the machines together by
