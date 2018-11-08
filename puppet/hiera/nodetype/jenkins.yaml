@@ -4,7 +4,7 @@ classes:
 
 jenkins::configure_firewall: false
 
-profile::jenkins::plugins:
+jenkins::plugins:
   ansicolor: {}
   ant:
     config_filename: hudson.tasks.Ant.xml
