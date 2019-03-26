@@ -10,7 +10,7 @@
 
 class loadbalancer::package {
 
-  package {'nginx-naxsi':
+  package {'nginx':
     ensure   => present,
     provider => 'apt'
   }

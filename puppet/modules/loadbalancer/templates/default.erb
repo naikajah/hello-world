@@ -13,7 +13,6 @@ server {
   server_name $hostname;
 
   location / {
-    include /etc/nginx/naxsi.rules;
     proxy_pass  http://backend;
   }
 
