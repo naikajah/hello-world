@@ -15,8 +15,8 @@ class webapp::package {
     provider => 'apt'
   }
 
-  package { ['php5-fpm',
-             'php5-cli']:
+  package { ['php7.0-fpm',
+             'php7.0-cli']:
     ensure => present,
     provider => 'apt',
   }

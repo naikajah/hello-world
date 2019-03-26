@@ -14,8 +14,8 @@ class webapp::service {
    ensure   => running,
   }
 
-  service { 'php5-fpm':
+  service { 'php7.0-fpm':
     ensure => running,
-    require => Package['php5-fpm'],
+    require => Package['php7.0-fpm'],
   }
 }
